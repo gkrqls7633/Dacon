@@ -7,3 +7,9 @@
 
 - 주최 : LG AI Research
 - 주관 : 데이콘
+
+## Problem Statement
+고객의 err_date와 quality_data를 기반으로 불만 제기 데이터(problem)를 활용해 고객의 불만 제기 확률을 제시하는 문제입니다. test 데이터 세트에 대한 auc_score를 기준으로 평가합니다.
+
+## Model
+강력한 부스팅 계열 앙상블 기법인 LightGBM 기법을 활용하여 모델링 하였습니다.
